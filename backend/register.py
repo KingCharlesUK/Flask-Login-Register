@@ -1,7 +1,6 @@
 from flask import Blueprint, url_for, render_template, redirect, request
 from flask_login import LoginManager
 from werkzeug.security import generate_password_hash
-from datetime import datetime
 
 from models import db, Users
 
